@@ -1,0 +1,44 @@
+.company-info {
+    background-color: var(--main-color);
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+
+.company-info__detail-main {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.company-info__detail {
+    display: flex;
+    align-items: center;
+}
+
+
+.company-info__detail-contact,
+.company-info__detail-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 1vw;
+    margin-left: 3vw;
+}
+
+.company-info__detail-contact div,
+.company-info__detail-location div {
+    margin-bottom: 0.5vw;
+}
+
+
+
+.company-info__company {
+    color: white;
+    font-size: 0.5vw;
+    padding: 1vw;
+}
+

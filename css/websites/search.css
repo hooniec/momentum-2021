@@ -1,0 +1,96 @@
+.search-bar {
+    background: var(--main-color);
+    border-radius: 10vw;
+    margin-top: 1vw;
+}
+
+.search-bar__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw;
+}
+
+.search_input,
+.search-bar__form select,
+.search_submit
+{
+    border: solid 2px gray;
+    height: 3vw;
+    margin-right: 5px;
+    background: var(--main-color-light);
+    font-size: 0.6vw;
+}
+
+.search_input::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.search_input {
+    border-radius: 10vw 0 0 10vw;
+}
+
+.search_submit {
+    color: white;
+    border-radius: 0 10vw 10vw 0;
+}
+
+.search_carlist {
+    margin-top: 3vw;
+    margin-left: 5vw;
+}
+
+.search_carlist__car {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.1vw;
+    margin-bottom: 3vw;
+    padding-bottom: 1.5vw;
+    border-bottom: solid 2px var(--main-color-light);
+}
+
+.search_carlist__car img {
+    width: 90%;
+    height: 10vw;
+    border: solid 1px gray;
+}
+
+.search_carlist__car-name {
+    font-weight: bold;
+    font-size: 1.1vw;
+}
+
+.search_carlist__car-price {
+    font-size: 0.9vw;
+    color: var(--main-color);
+}
+
+.search_carlist__car-spec {
+    font-size: 0.7vw;
+    color: darkgray;
+}
+
+.search_carlist__result-title {
+    color: var(--main-color);
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.search_carlist__result {
+    display: flex;
+    justify-content: center;
+    font-size: 1.1vw;
+    width: 90%;
+    margin-bottom: 5vw;
+    padding-bottom: 1.5vw;
+    border-bottom: solid 2px var(--main-color-light);
+}
+
+.search_carlist__result img {
+    width: 15vw;
+    margin-right: 1vw;
+}
+
+
+

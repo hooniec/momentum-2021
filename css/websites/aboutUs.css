@@ -1,0 +1,63 @@
+.aboutUs-image img {
+    width: 100%;
+}
+
+.about-us {
+    margin: 30px 50px;
+}
+
+.about-us__title {
+    color: var(--main-color);
+    margin-top: 50px;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.about-us__detail {
+    font-size: 1vw;
+}
+
+.about-us__detail-bold {
+    font-weight: bold;
+}
+
+.about-us__detail p {
+    color: var(--main-color-light);
+}
+
+.about-us__staff {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 2vw;
+    margin-bottom: 3vw;
+}
+
+.about-us__staff i {
+    font-size: 4vw;
+}
+
+.about-us__staff-detail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+
+.about-us__staff-detail span {
+    margin: 0.3vw 0;
+}
+
+.about-us__staff-name {
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.about-us__staff-pos {
+    font-size: 0.8vw;
+    color: gray;
+}
+
+.about-us__staff-phone,
+.about-us__staff-email {
+    font-size: 0.9vw;
+    color: var(--main-color-light);
+}

@@ -1,0 +1,109 @@
+.profile-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.profile-title div{
+    display: flex;
+    justify-content: flex-start;
+    margin: 4vw 3vw 0 3vw;
+    padding-bottom: 2vw;
+    border-bottom: solid 2px var(--main-color);
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 20vw;
+}
+
+.profile-container__title {
+    font-size: 2vw;
+}
+
+.profile-container__detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.1vw;
+    margin: 0 0 0 3vw;
+}
+
+.profile-container__detail label {
+    margin: 2vw 0 0 0;
+}
+
+.profile_input {
+    border: none;
+    border-bottom: solid 2px var(--main-color-light);
+    margin-top: 10px;
+    width: 80%;
+}
+
+.profile-change_submit {
+    width: 80%;
+    margin-bottom: auto;
+    padding: 3px;
+    margin: 2vh 0px;
+    background: var(--main-color);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    border-bottom: solid 2px black;
+}
+
+/* Dealer car list */
+.profile-container__add-car {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile-container__list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.checkbox {
+    font-size: 1vw;
+    margin-top: 1vw;
+}
+
+.checkbox input[type=checkbox] {
+    border: 0px;
+    height: 1.3vw;
+    vertical-align: middle;
+}
+
+.checkbox label{
+    vertical-align: middle;
+}
+
+.profile-remove_submit {
+    width: 70%;
+    margin-bottom: auto;
+    padding: 3px;
+    margin: 3vh 0px;
+    background: var(--main-color);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    border-bottom: solid 2px black;
+}
+
+/* Add Car */
+.profile-container__add-car {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#body {
+    margin-bottom: 3vh;
+}
